@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="RadarView">
+        <attr name="x" format="integer" />
+        <attr name="y" format="integer" />
+    </declare-styleable>
+</resources>
