@@ -7,8 +7,20 @@
     tools:context="com.github.leondevlifelog.learncustomview.MainActivity">
 
     <com.github.leondevlifelog.learncustomview.views.RadarView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="203dp"
+        android:layout_height="184dp"
         app:x="6"
         app:y="6" />
+
+    <com.github.leondevlifelog.learncustomview.views.SwitchView
+        android:layout_width="330dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="168dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
